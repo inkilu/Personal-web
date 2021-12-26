@@ -1,0 +1,119 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap');
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    background: black;
+    color: aliceblue;
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+.custom-shape-divider-top-1640527939 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: -1;
+}
+
+.custom-shape-divider-top-1640527939 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 161px;
+}
+
+.custom-shape-divider-top-1640527939 .shape-fill {
+    fill: #43B0F1EB;
+}
+/* a{
+    text-decoration: none;
+    color:aliceblue;
+    cursor: pointer;
+}
+.nav-items{
+    display: flex;
+        justify-content: space-around;
+        list-style: none;
+        margin: 0;
+        padding:0;
+        padding-top: 0.3rem;
+        font-size:1.4rem;
+        z-index: 100;
+        font-family: 'Roboto Condensed', sans-serif;
+}
+
+a:hover{
+    border-bottom: 2px solid rgb(66, 233, 211);
+} */
+.avatar-div{
+    width: 256px;
+    height: 256px;
+    margin:auto;
+    margin-top: 2.3rem;
+}
+
+.avatar{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.intro{
+    display: flex;
+    justify-content: center;
+}
+.hov-style:hover{
+    color:aqua;
+}
+.intro-para{
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.twitter{
+    width: 37px;
+    height: 37px;
+    margin-right: 2rem;
+}
+.github{
+    width: 50px;
+}
+.nyan-cat{
+    margin-top: 10rem;
+    width: 60px;
+}
+.nyan{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+display: flex;
+justify-content: center;
+margin-top: 4rem;
+}
+@media(min-width:50rem){
+    .nav-items{
+        font-family: 'Roboto Condensed', sans-serif !important;
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        margin: 0;
+        padding-top: 0.2rem;
+        font-family: 'Newsreader', serif;
+        font-size:1.5rem;
+        font-weight: bold;
+        text-shadow: 1px 2px 6px rgba(128, 128, 128, 0.616);
+}
+
+}
