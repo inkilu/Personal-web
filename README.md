@@ -1,6 +1,2 @@
-# Personal Website
-## _A responsive website built from scratch_
-
-> HTML
-> CSS
+## _A responsive Personal website built from scratch_
 # [Visit Here!](https://inkilu.ml)
