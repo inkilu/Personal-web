@@ -84,22 +84,10 @@ a:hover{
 .twitter{
     width: 37px;
     height: 37px;
-    margin-right: 0.4rem;
+    margin-right: 2rem;
 }
 .github{
     width: 50px;
-    margin-right: 0.5rem;
-}
-.steam{
-    width: 32px;
-    margin-right: 0.95rem;
-}
-.discord{
-    width:37px;
-    margin-right: 0.94rem;
-}
-.youtube{
-    width: 38px;
 }
 .nyan-cat{
     margin-top: 10rem;
@@ -112,7 +100,7 @@ a:hover{
 .footer{
 display: flex;
 justify-content: center;
-margin-top: 3rem;
+margin-top: 4rem;
 }
 @media(min-width:50rem){
     .nav-items{
@@ -126,35 +114,6 @@ margin-top: 3rem;
         font-size:1.5rem;
         font-weight: bold;
         text-shadow: 1px 2px 6px rgba(128, 128, 128, 0.616);
-}
-
-.twitter{
-    width: 37px;
-    height: 37px;
-    margin-right: 2rem;
-}
-.github{
-    width: 50px;
-    margin-right: 2rem;
-}
-.steam{
-    width: 32px;
-    margin-right: 2rem;
-}
-.discord{
-    width:37px;
-    margin-right: 2rem;
-}
-.youtube{
-    width: 38px;
-}
-.nyan-cat{
-    margin-top: 10rem;
-    width: 60px;
-}
-.nyan{
-    display: flex;
-    justify-content: center;
 }
 
 }
