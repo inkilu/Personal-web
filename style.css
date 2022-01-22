@@ -64,6 +64,11 @@ a:hover{
     border-radius: 50%;
 }
 
+.avatar:hover{
+    box-shadow: 0px 0px 15px 8px  rgb(0, 204, 255);
+    z-index: -12;
+}
+
 .intro{
     display: flex;
     flex-wrap: wrap;
