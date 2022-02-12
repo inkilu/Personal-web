@@ -6,7 +6,7 @@ html{
 }
 
 body{
-    background: black;
+    background:black;
     color: aliceblue;
     margin: 0;
     font-family: 'PT Sans', sans-serif;
@@ -29,7 +29,7 @@ body{
 }
 
 .custom-shape-divider-top-1640527939 .shape-fill {
-    fill: #43B0F1EB;
+    fill: rgba(113, 122, 253, 0.959);
 }
 /* a{
     text-decoration: none;
@@ -65,7 +65,7 @@ a:hover{
 }
 
 .avatar:hover{
-    box-shadow: 0px 0px 15px 8px  rgb(0, 204, 255);
+    box-shadow: 0px 0px 15px 8px rgba(113, 122, 253, 0.959);
     z-index: -12;
 }
 
@@ -114,6 +114,27 @@ a:hover{
 .youtube{
     width: 38px;
 }
+
+.gal-section{
+    display: flex;
+    justify-content: center;
+    background:linear-gradient(90deg, rgba(143,98,180,0.835171568627451) 24%, rgba(33,188,224,0.6615021008403361) 96%);
+    padding :0.7em;
+    border-radius: 0.8rem;
+    text-shadow: 2px 3px 12px cornflowerblue;
+}
+
+/* .gal--div{
+come back later
+} */
+
+.gal-1{
+    height: 600px; 
+    background: url('images/retro/retro.jpg');
+    background-position: center;
+    background-size: cover;
+ }
+
 .nyan-cat{
     margin-top: 10rem;
     width: 60px;
@@ -125,18 +146,25 @@ a:hover{
 .playlist{
     display: flex;
     justify-content: center;
-    background: linear-gradient(132deg, #acf43f 0%, #16A085 100%);
+    /* background: linear-gradient(132deg, #acf43f 0%, #16A085 100%); */
+    background:linear-gradient(90deg, rgba(143,98,180,0.835171568627451) 24%, rgba(33,188,224,0.6615021008403361) 96%);
     padding :0.7em;
     border-radius: 0.4rem;
     text-shadow: 2px 3px 12px black;
 }
+
+.spotify-container{
+    margin-top: 1.5rem;
+
+}
+
 .footer{
 display: flex;
 justify-content: center;
 margin-top: 3rem;
 }
 
-@media(min-width:50rem){
+@media(min-width:69rem){
     .nav-items{
         font-family: 'Roboto Condensed', sans-serif !important;
         display: flex;
@@ -175,6 +203,36 @@ margin-top: 3rem;
 .youtube{
     width: 38px;
 }
+
+.gal-1{
+    height: 850px; 
+    background: url('images/retro/retro.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+ }
+.gal--div{
+    position: relative;
+}
+ .gal-2{
+     width: 300px;
+     height: 850px;
+     position: absolute;
+    background: url('images/retro/1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+
+ .gal-3{
+    width: 350px;
+    height: 650px;
+    position: absolute;
+    right: 0px;
+   background: url('images/retro/2.jpg');
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
 .nyan-cat{
     margin-top: 10rem;
     width: 60px;
@@ -183,8 +241,14 @@ margin-top: 3rem;
     display: flex;
     justify-content: center;
 }
+.main-spotify-continer{
+    height:800px;
+    background: url('images/retro/3.jpg');
+    background-size:70%;
+    background-repeat: no-repeat;
+}
 .spotify-container{
-    margin-top: 3rem;
+    margin-top: 1.5rem;
     display: flex;
     justify-content: center;
 }
@@ -192,3 +256,13 @@ margin-top: 3rem;
     width:40%;
 }
 }
+
+/*
+Don't remove this tag! 
+Developed by :
+ _       _    _ _       
+(_)     | |  (_) |      
+ _ _ __ | | ___| |_   _ 
+| | '_ \| |/ / | | | | |
+| | | | |   <| | | |_| |
+|_|_| |_|_|\_\_|_|\__,_| */
