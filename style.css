@@ -29,7 +29,7 @@ body{
 }
 
 .custom-shape-divider-top-1640527939 .shape-fill {
-    fill: rgba(113, 122, 253, 0.959);
+    fill: rgba(80, 69, 233, 0.959);
 }
 /* a{
     text-decoration: none;
@@ -65,7 +65,7 @@ a:hover{
 }
 
 .avatar:hover{
-    box-shadow: 0px 0px 15px 8px rgba(113, 122, 253, 0.959);
+    box-shadow: 0px 0px 15px 8px rgba(60, 71, 233, 0.959);
     z-index: -12;
 }
 
@@ -158,13 +158,41 @@ come back later
 
 }
 
+.gal--div{
+    position: relative;
+}
+    .gal-2{
+        width: 190px;
+        height: 520px;
+        position: absolute;
+        top:7%;
+       background: url('images/retro/1.jpg');
+       background-repeat: no-repeat;
+       background-position: center;
+    }
+   
+    .gal-3{
+       width: 190px;
+       height: 520px;
+       position: absolute;
+       top:0%;
+       right: 0px;
+      background: url('images/retro/2.jpg');
+      background-repeat: no-repeat;
+      background-position:30% bottom;
+   }
+
 .footer{
 display: flex;
 justify-content: center;
 margin-top: 3rem;
 }
-
-@media(min-width:69rem){
+@media(max-width:650px){
+.gal-2,.gal-3{
+    display: none;
+}
+}
+@media(min-width:67rem){
     .nav-items{
         font-family: 'Roboto Condensed', sans-serif !important;
         display: flex;
@@ -231,6 +259,17 @@ margin-top: 3rem;
    background: url('images/retro/2.jpg');
    background-repeat: no-repeat;
    background-position: center;
+}
+
+.giff{
+    position: absolute;
+    right: 0px;
+    top: 187%;
+    background: url('images/retro/anim.gif');
+    background-position:10% top;
+    min-width: 480px;
+    min-height: 480px;
+    z-index: -1;
 }
 
 .nyan-cat{
