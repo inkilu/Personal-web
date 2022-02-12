@@ -31,26 +31,6 @@ body{
 .custom-shape-divider-top-1640527939 .shape-fill {
     fill: rgba(80, 69, 233, 0.959);
 }
-/* a{
-    text-decoration: none;
-    color:aliceblue;
-    cursor: pointer;
-}
-.nav-items{
-    display: flex;
-        justify-content: space-around;
-        list-style: none;
-        margin: 0;
-        padding:0;
-        padding-top: 0.3rem;
-        font-size:1.4rem;
-        z-index: 100;
-        font-family: 'Roboto Condensed', sans-serif;
-}
-
-a:hover{
-    border-bottom: 2px solid rgb(66, 233, 211);
-} */
 .avatar-div{
     width: 256px;
     height: 256px;
@@ -244,7 +224,7 @@ margin-top: 3rem;
 }
  .gal-2{
      width: 300px;
-     height: 850px;
+     height: 840px;
      position: absolute;
     background: url('images/retro/1.jpg');
     background-repeat: no-repeat;
