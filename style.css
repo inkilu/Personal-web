@@ -11,6 +11,31 @@ body{
     margin: 0;
     font-family: 'PT Sans', sans-serif;
 }
+
+/* scrollbar style for chrmoium */
+
+::-webkit-scrollbar{
+    width:0.4rem;
+}
+
+::-webkit-scrollbar-track{
+    background: black;
+}
+
+::-webkit-scrollbar-thumb{
+    background:linear-gradient(to top, rgba(143,98,180,0.835171568627451) 24%, rgba(33,188,224,0.6615021008403361) 96%);
+    border-radius: 4px;
+}
+
+/* scrollbar style for firefox */
+
+@supports (scrollbar-color: red blue) {
+    *{
+     scrollbar-color: linear-gradient(to top, rgba(143,98,180,0.835171568627451) 24%, rgba(33,188,224,0.6615021008403361) 96%);
+     scrollbar-width: thin;
+  }
+}
+
 .custom-shape-divider-top-1640527939 {
     position: absolute;
     top: 0;
@@ -109,7 +134,7 @@ come back later
 } */
 
 .gal-1{
-    height: 600px; 
+    height: 37.5rem; 
     background: url('images/retro/retro.jpg');
     background-position: center;
     background-size: cover;
@@ -142,8 +167,8 @@ come back later
     position: relative;
 }
     .gal-2{
-        width: 190px;
-        height: 520px;
+        width: 11.875rem;
+        height: 32.5rem;
         position: absolute;
         top:7%;
        background: url('images/retro/1.jpg');
@@ -152,8 +177,8 @@ come back later
     }
    
     .gal-3{
-       width: 190px;
-       height: 520px;
+       width: 11.875rem;
+       height: 32.5rem;
        position: absolute;
        top:0%;
        right: 0px;
@@ -213,7 +238,7 @@ margin-top: 3rem;
 }
 
 .gal-1{
-    height: 850px; 
+    height: 53.125rem; 
     background: url('images/retro/retro.jpg');
     background-repeat: no-repeat;
     background-position: center;
@@ -223,8 +248,8 @@ margin-top: 3rem;
     position: relative;
 }
  .gal-2{
-     width: 300px;
-     height: 840px;
+     width: 18.75rem;
+     height: 52.5rem;
      position: absolute;
     background: url('images/retro/1.jpg');
     background-repeat: no-repeat;
@@ -232,8 +257,8 @@ margin-top: 3rem;
  }
 
  .gal-3{
-    width: 350px;
-    height: 650px;
+    width: 21.875rem;
+    height: 40.625rem;
     position: absolute;
     right: 0px;
    background: url('images/retro/2.jpg');
@@ -247,8 +272,8 @@ margin-top: 3rem;
     top: 187%;
     background: url('images/retro/anim.gif');
     background-position:10% top;
-    min-width: 480px;
-    min-height: 480px;
+    min-width: 30rem;
+    min-height: 30rem;
     z-index: -1;
 }
 
@@ -261,7 +286,7 @@ margin-top: 3rem;
     justify-content: center;
 }
 .main-spotify-continer{
-    height:800px;
+    height:50rem;
     background: url('images/retro/3.jpg');
     background-size:70%;
     background-repeat: no-repeat;
