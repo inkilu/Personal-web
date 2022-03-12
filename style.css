@@ -3,6 +3,7 @@
 
 html{
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -11,7 +12,10 @@ body{
     margin: 0;
     font-family: 'PT Sans', sans-serif;
 }
-
+a{
+    text-decoration: underline;
+    color:white;
+}
 /* scrollbar style for chrmoium */
 
 ::-webkit-scrollbar{
@@ -57,8 +61,8 @@ body{
     fill: rgba(80, 69, 233, 0.959);
 }
 .avatar-div{
-    width: 256px;
-    height: 256px;
+    width: 210px;
+    height: 210px;
     margin:auto;
     margin-top: 2.3rem;
 }
@@ -70,7 +74,7 @@ body{
 }
 
 .avatar:hover{
-    box-shadow: 0px 0px 15px 8px rgba(60, 71, 233, 0.959);
+    box-shadow: 0px 0px 15px 8px rgba(60, 135, 233, 0.959);
     z-index: -12;
 }
 
@@ -94,28 +98,69 @@ body{
     margin: 0.5rem;
 }
 
+@keyframes slide {
+    0% {
+      transform: translateY(150%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideTop {
+    0% {
+      transform: translateY(-150%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .intro {  
+    animation: 1s ease-out 0s 1 slide;
+  }
+
+  .socials {  
+    animation: 1s ease-out 0s 1 slideTop;
+  }
+
 .socials{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .twitter{
     width: 37px;
     height: 37px;
-    margin-right: 0.4rem;
+    margin-right: 1.1rem;
 }
 .github{
     width: 50px;
-    margin-right: 0.5rem;
+    margin-right: 1.1rem;
 }
 .steam{
     width: 32px;
-    margin-right: 0.95rem;
+    margin-right: 1.3rem;
 }
 .discord{
     width:37px;
-    margin-right: 0.94rem;
+    margin-right: 1.3rem;
 }
+
+.snap {
+    width:32px;
+    margin-right: 1.4rem;
+}
+
+.ig{
+    width: 10px;
+}
+
 .youtube{
     width: 38px;
 }
@@ -192,6 +237,21 @@ display: flex;
 justify-content: center;
 margin-top: 3rem;
 }
+
+.about-me--div{
+    border: 2px solid;
+    padding: 1rem;
+    background: linear-gradient(90deg, rgba(143,98,180,0.835171568627451) 24%, rgba(33,188,224,0.6615021008403361) 96%);;
+    margin-top: 3rem;
+    font-size: 1.1rem;
+}
+
+.ame{
+    text-align: center;
+}
+
+/* RESPONSIVENESS STARTS */
+
 @media(max-width:650px){
 .gal-2,.gal-3{
     display: none;
@@ -233,6 +293,16 @@ margin-top: 3rem;
     width:37px;
     margin-right: 2rem;
 }
+
+.snap {
+    width:32px;
+    margin-right: 2rem;
+}
+
+.ig{
+    width: 10px;
+}
+
 .youtube{
     width: 38px;
 }
@@ -275,6 +345,14 @@ margin-top: 3rem;
     min-width: 30rem;
     min-height: 30rem;
     z-index: -1;
+}
+
+.about-me--div{
+    margin:auto;
+    margin-top: 5rem;
+    width: 50%;
+    display: flex;
+    justify-content: center;
 }
 
 .nyan-cat{
