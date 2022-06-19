@@ -232,6 +232,24 @@ come back later
       background-position:30% bottom;
    }
 
+.wofw{
+display: flex;
+justify-content: center;
+font-size: 28px;
+background: linear-gradient(90deg,#C9CC11,#ecd74d);
+background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+border-bottom: 1px #C9CC11 solid;
+border-top: 1px #C9CC11 solid;
+}
+
+.yt-embd{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
 .footer{
 display: flex;
 justify-content: center;
@@ -346,6 +364,11 @@ margin-top: 3rem;
     min-height: 30rem;
     z-index: -1;
 }
+
+/* .yt-embd{
+    position: relative;
+    left:-3%;
+} */
 
 .about-me--div{
     margin:auto;
