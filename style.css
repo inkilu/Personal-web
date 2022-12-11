@@ -6,6 +6,16 @@ html{
     scroll-behavior: smooth;
 }
 
+.particles{
+height: 100%;
+position: absolute;
+top:0;
+left:0;
+right: 0;
+bottom: 0;
+z-index: 0;
+}
+
 body{
     background:black;
     color: aliceblue;
@@ -40,7 +50,7 @@ a{
   }
 }
 
-.custom-shape-divider-top-1640527939 {
+/* .custom-shape-divider-top-1640527939 {
     position: absolute;
     top: 0;
     left: 0;
@@ -59,12 +69,14 @@ a{
 
 .custom-shape-divider-top-1640527939 .shape-fill {
     fill: rgba(80, 69, 233, 0.959);
-}
+} */
 .avatar-div{
+    position: relative;
     width: 210px;
     height: 210px;
     margin:auto;
     margin-top: 2.3rem;
+    z-index: 1;
 }
 
 .avatar{
@@ -79,6 +91,8 @@ a{
 }
 
 .intro{
+    position: relative;
+    z-index: 1;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -129,6 +143,8 @@ a{
   }
 
 .socials{
+    position: relative;
+    z-index: 1;
     display: flex;
     justify-content: center;
     align-items: center;
