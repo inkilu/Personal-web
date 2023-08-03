@@ -82,11 +82,11 @@ a{
 .avatar{
     height: 100%;
     width: 100%;
-    border-radius: 50%;
+    border-radius: 10% 10%;
 }
 
 .avatar:hover{
-    box-shadow: 0px 0px 15px 8px rgba(60, 135, 233, 0.959);
+    box-shadow: 0px 0px 15px 8px rgba(58, 58, 132, 0.959);
     z-index: -12;
 }
 
@@ -97,6 +97,8 @@ a{
     flex-wrap: wrap;
     justify-content: center;
     padding: 0;
+    overflow:hidden;
+    height: 67px;
 }
 .hov-style:hover{
     color:aqua;
@@ -107,10 +109,30 @@ a{
 }
 
 .intro-para{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 200;
     margin: 0.5rem;
+    margin-right: 0;
 }
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+.intro-para .hov-style2 {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.intro-para .hov-style2 span {
+    display: inline-block;
+    animation: typing 4s steps(40) 1s 1 normal both;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+}
+
 
 @keyframes slide {
     0% {
@@ -310,14 +332,22 @@ margin-top: 3rem;
     justify-content: center;
 }
 
+.intro-para{
+    font-size: 2rem;
+    font-weight: 200;
+    margin: 0.5rem;
+    margin-right: 0;
+}
+
 .twitter{
-    width: 37px;
-    height: 37px;
-    margin-right: 2rem;
+    width: 40px;
+    height: 40px;
+    margin-top: 5.8px;
+    margin-right: 1.3rem;
 }
 .github{
     width: 50px;
-    margin-right: 2rem;
+    margin-right: rem;
 }
 .steam{
     width: 32px;
