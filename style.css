@@ -97,8 +97,8 @@ a{
     flex-wrap: wrap;
     justify-content: center;
     padding: 0;
-    overflow:hidden;
-    height: 67px;
+    overflow:inline-block;
+    height: 90px;
 }
 .hov-style:hover{
     color:aqua;
