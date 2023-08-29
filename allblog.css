@@ -1,0 +1,40 @@
+.allblogs{
+font-size: 2rem;
+text-decoration: underline;
+text-align: center;
+margin-bottom: 15px;
+}
+a{
+    text-decoration: none;
+}
+
+a:hover{
+color:rgb(34, 176, 224);
+}
+
+ul{
+    list-style: none;
+}
+
+.content {
+    position: relative;
+    margin: 0;
+    font-size: 1.9rem;
+    z-index: 10;
+}
+
+@media(min-width:67rem){
+    .allblogs{
+        font-size: 4rem;
+        text-decoration: none;
+    }
+
+    .content {
+        position: relative;
+        margin: 0;
+        font-size: 2rem;
+        width: 45%;
+        margin-left: 27%;
+        z-index: 10;
+    }
+}

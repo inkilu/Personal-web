@@ -70,6 +70,13 @@ a{
 .custom-shape-divider-top-1640527939 .shape-fill {
     fill: rgba(80, 69, 233, 0.959);
 } */
+
+.blog-link{
+margin-left:52%;
+position: relative;
+z-index: 100;
+}
+
 .avatar-div{
     position: relative;
     width: 210px;
@@ -326,6 +333,13 @@ margin-top: 3rem;
         font-weight: bold;
         text-shadow: 1px 2px 6px rgba(128, 128, 128, 0.616);
 }
+
+.blog-link{
+    margin-left:90%;
+    position: relative;
+    z-index: 100;
+    vertical-align: center;
+    }
 
 .intro{
     display: flex;

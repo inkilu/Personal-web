@@ -1,0 +1,40 @@
+.image-container{
+    margin-top: 2rem;
+    width: 300px;
+    height: 400px; 
+    position: relative;
+    margin: auto;
+}
+
+.title-image{
+    width: 100%;
+    height: 100%;
+}
+
+.back-link{
+    margin-left:80%;
+    position: relative;
+    z-index: 100;
+    }
+
+.date-div{
+display: flex;
+justify-content: center;
+}
+
+.blog-content{
+    display: flex;
+    padding: 20px;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    justify-content: center;
+}
+
+@media(min-width:67rem){
+    .blog-content{
+        padding: 60px;
+        display: flex;
+        font-size: 1.7rem;
+        justify-content: center;
+    }
+}
